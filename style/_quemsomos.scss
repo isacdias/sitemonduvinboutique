@@ -1,0 +1,106 @@
+.hero-quem-somos {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  background: rgb(41, 41, 41);
+  padding: 5rem;
+
+  img {
+    width: 15rem;
+    margin-right: auto;
+  }
+
+
+}
+
+.monduvin-title {
+  color: white;
+  font-size: 6rem;
+  
+}
+
+.quem-somos-links {
+
+  a {
+    color: white;
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
+
+ 
+}
+
+.main-quem-somos {
+  color: grey;
+  font-size: 1rem;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  
+
+  .socios {
+    margin-top: 2rem;
+    max-width: 40rem;
+    
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-family: sans-serif;
+      line-height: 1.5;
+    }
+  }
+
+  .socios-perfil {
+    display: flex;
+    justify-content:center;
+    margin: 2rem;
+    
+  }
+  .perfil-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      background: grey;
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      border: none;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      text-align: center;
+      font-family: sans-serif;
+    }
+  }
+
+  .ideia {
+    margin-top: 2rem;
+    max-width: 60rem;
+    display: flex;
+    align-items:center;
+    gap: 2rem;
+
+    img {
+      background: grey;
+      width: 16rem;
+      height: 16rem;
+      
+      border: none;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-family: sans-serif;
+      line-height: 1.5;
+      
+    }
+  }
+}

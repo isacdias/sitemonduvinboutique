@@ -1,0 +1,80 @@
+.palco {
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    background-image: url('../assets/clos_du_loup_video_bg.jpg');
+}
+
+.palco1 {
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    background-image: url('../assets/les_mains_sales_video_bg.jpg');
+}
+.palco-header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2rem ;
+}
+
+.palco-nome {
+    order: 2;
+    color: white;
+    font-size:2rem; 
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.palco-main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.palco-video {
+    width: 60%;
+}
+
+.conheca-btn {
+    margin-top: 2rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    transition: 0.2s;
+
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.109);
+    }
+}
+
+@media screen and  (max-width: 766px)  {
+
+}
+ 
+@media screen and  (max-width: 425px)  {
+       .palco-header {
+        padding:0;
+        flex-wrap: wrap;
+        justify-content:center
+    }
+
+    .palco-logo {
+        margin: 2rem 0; 
+    }
+
+    .palco-nome {
+        font-size:0.5rem; 
+    
+    }
+ 
+    .palco-video {
+        margin: 2rem 0;
+        width: 100vw; 
+    } 
+}
+

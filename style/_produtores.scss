@@ -1,0 +1,78 @@
+.home-top-productors {
+  background-image: url("../assets/hero_productors.jpg");
+  background-position: cover;
+  
+  
+}
+
+.hero-productors {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 10rem;
+  color: white;
+
+  h3 {
+    font-size:1.8rem;
+    font-family: sans-serif;
+    
+  }
+}
+
+.productors_list {
+  display: block;
+  flex-direction: column;
+}
+
+.productor {
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem 0;
+  filter: grayscale(80%)
+}
+
+.productor:hover {
+  filter: grayscale(0%)
+}
+
+.logo_productor {
+  width: 10rem;
+}
+
+.productor_button_list {
+  font-size: 30px;
+  background: white;
+  border: 1px solid grey;
+  font-size: 0.7rem;
+  padding: 7px 14px;
+}
+
+.productor_button_list:hover {
+  background-color: rgb(243, 242, 242);
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.productor_img {
+  max-width: 25rem;
+  
+}
+
+
+.productor_list_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+}
+
+.productor_list_title {
+  font-size: 1.5rem;
+}
+
+.productor_list_text {
+  font-family: sans-serif;
+  margin: 1rem 0;
+  font-size: 0.81rem;
+}

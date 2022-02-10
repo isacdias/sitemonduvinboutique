@@ -1,0 +1,57 @@
+.herotop-wines {
+    background-image: url('../assets/hero-wines.jpg');
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    .headertop-wines {
+        display: flex;
+        flex-direction: column;
+               
+      
+
+        .chamada {
+            display: flex;
+        flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            margin-top: 5rem;
+        }
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            max-width: 20rem;;
+        }
+    }
+
+    .wine-links ul {
+        display: flex;
+        color: white;
+        margin-top: 4rem;
+        text-align: center;
+
+        li a {
+            color: white;
+            margin: .5rem;
+            text-align: center;
+            font-size: .6rem;
+        }
+    }
+}
+
+// wines section
+
+.wine-container-puit {
+    height: 100vh;
+    height: 100vh;
+    background-image: url('../assets/Vieux_Fundo.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

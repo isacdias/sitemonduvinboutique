@@ -1,0 +1,43 @@
+.palco {
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    background-image: url('../assets/clos_du_loup_video_bg.jpg');
+}
+.palco-header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2rem ;
+}
+
+.palco-nome {
+    color: white;
+    font-size:2rem; 
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.palco-main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.palco-video {
+    width: 60%;
+}
+
+.conheca-btn {
+    margin-top: 2rem;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    transition: 0.2s;
+
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.109);
+    }
+}

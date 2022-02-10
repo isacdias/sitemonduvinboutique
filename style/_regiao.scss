@@ -1,0 +1,272 @@
+.productor-container {
+  // width: 100vw;
+  height: 100vh;
+  padding: 5rem;
+}
+
+.productor-lang {
+  display: flex;
+
+  a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: underline;
+  }
+}
+
+.home-top-region {
+  background-image: url("../assets/hero-region.jpg");
+  background-position: cover;
+  color: white;
+
+  .hero-productor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+    h2 {
+      font-size: 4rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-family: sans-serif;
+    }
+
+    .links-productor ul {
+      display: flex;
+
+      li {
+        padding: 1rem 1rem;
+        border-bottom: 1px solid white;
+
+        margin: 3rem 1rem;
+      }
+
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+
+.tit-testemonial {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+.testemonial-txt {
+  background: rgba(255, 255, 255, 0.096);
+  padding: 3rem;
+  p {
+    max-width: 45rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-style: italic;
+  }
+
+  small {
+    margin-top: 5rem;
+    font-size: 0.8rem;
+    text-align: right;
+    // padding-top: 5rem;
+  }
+}
+
+// +++++++++++++++++++++++
+// Grapes Section
+// +++++++++++++++++++++++
+
+.region-content {
+  .region-grapes-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+
+    img {
+      max-width: 20rem;
+      margin-right: 5rem;
+    }
+    
+    h6 {
+      font-size: 9rem;
+      transform: rotate(270deg);
+      opacity: 0.1;
+      text-align: center;
+    }
+
+    .region-grapes-desc {
+      h5 {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-family: sans-serif;
+        font-size: 1rem;
+        max-width: 20rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+      }
+
+      h3 {
+        margin-top: 10rem;
+      }
+    }
+  }
+}
+
+.img-map {
+  display: flex;
+  justify-content: center;
+  img {
+    max-width: 60rem;
+  }
+}
+
+.patrimonio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .st-emilion-desc {
+    background-color: #313131;
+    padding: 5rem 18rem;
+    margin-top: -15rem;
+    z-index: -10;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    p {
+      font-family: sans-serif;
+      line-height: 1.5;
+      font-size: 1rem;
+      // max-width:40rem;
+      margin-top: 15rem;
+    }
+
+    img {
+      max-width: 40rem;
+    }
+  }
+}
+
+@media screen and  (max-width: 1280px)  {
+  .region-content .region-grapes-group h6 {
+    font-size: 2rem;
+    display: none;
+  }
+
+  .patrimonio .st-emilion-desc {
+    width: 85%;
+  }
+
+  
+}
+
+
+@media screen and  (max-width: 767px)  {
+  .links-productor a {
+    font-size: 1rem;
+  }
+
+  .home-top-region .hero-productor h3{
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+
+  .img-map img {
+    max-width: 100%;
+}
+
+.patrimonio .st-emilion-desc {
+  padding: 5rem 5rem;
+}
+
+   
+  .region-content .region-grapes-group .region-grapes-desc p {
+    max-width: initial;
+  }
+}
+
+
+
+@media screen and  (max-width: 767px)  {
+  .productor-container {
+    padding: 0;
+  }
+
+  .home-top-region .hero-productor h3 {
+    text-align: center;
+  }
+
+
+  .patrimonio .st-emilion-desc{
+   background:rgb(192, 189, 32);
+ }
+
+ .home-top-region .hero-productor h2 {
+  font-size: 2.7rem;
+ }
+
+ .productor-lang{
+  display: hidden !important;
+ }
+
+ .container-grapes {
+  padding: 1.8rem;
+ }
+ .grapes-main-img {
+   display: none;
+ }
+
+ .region-content .region-grapes-group h6  {
+   display: none;
+ }
+ .container-grapes h3 {
+   display: none;
+ }
+
+ .img-map img {
+   width: 100%;
+ }
+
+  .grapes-section{
+    width: 100%;
+    margin-right: 1rem;
+  }
+
+  .saint-emilion-img img {
+    width: 100%;
+  }
+
+  .patrimonio .st-emilion-desc{
+    width: 100%;
+    padding: 2rem;
+  }
+
+}
+
+@media screen and  (max-width: 350px)  {
+
+  main {
+    flex-direction: column;
+  }
+  .region-content .region-grapes-group img  {
+    margin-right: 0;
+  }
+
+  .home-top-region .hero-productor .links-productor ul li {
+    padding: 0;
+}
+}
