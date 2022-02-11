@@ -1,0 +1,68 @@
+/*HELPERS*/
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.vh-100 {
+    height: 100%;
+    height: 100vh;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+.py-1 {
+    padding-bottom: 1em !important;
+    padding-top: 1em !important;
+}
+
+.py-2 {
+    padding-bottom: 2em !important;
+    padding-top: 2em !important;
+}
+
+.py-3 {
+    padding-bottom: 3em !important;
+    padding-top: 3em !important;
+}
+
+.py-4 {
+    padding-bottom: 4em !important;
+    padding-top: 4em !important;
+}
+
+.py-5 {
+    padding-bottom: 5em !important;
+    padding-top: 5em !important;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+    .only-mobile {
+        display: none
+    }
+
+    .only-lg {
+        display: block
+    }
+
+
+@media screen and (max-width:768px) and (orientation: portrait) {
+    .only-mobile {
+        display: block
+    }
+
+    .only-lg {
+        display: none
+    }
+}

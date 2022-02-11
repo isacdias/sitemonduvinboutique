@@ -1,0 +1,68 @@
+/* RESPONSIVE */
+@media screen and (min-width: 1200px) {
+    .mv_container {
+        max-width: 1170px
+    }
+    .mv_hero {
+        min-height: 650px;
+    }
+
+    .show-wines {
+        [class*="content-wine"] {
+            .bottle {
+                min-height: 700px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mv_hero {
+        h2 {
+            font-size: 2.8rem;
+        }
+        h3 {
+            font-size: 1.8rem;
+        }
+    }
+
+    .show-wines [class*=content-wine] .price h5 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .productor_img {
+        margin-top: 0;
+        max-width: 100%;
+    }
+    .productor_list_right .productor_list_title{
+        font-size: 1.6rem;
+        margin-top: 1em;
+    }
+    .productor_list_text {
+        font-size: 1.2rem;
+    }
+    .productor_button_list {
+        font-size: 1.2rem;
+    }
+    .show-wines {
+        [class*="content-wine"] {
+            padding-left: 0;
+
+            h2 {
+                max-width: 100%;
+            }
+
+            .price, .price>* {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+}

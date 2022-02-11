@@ -1,16 +1,9 @@
 .home-top-productors {
-  background-image: url("../assets/hero_productors.jpg");
+  background-image: url("/assets/hero_productors.jpg");
   background-position: cover;
-  
-  
 }
 
 .hero-productors {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-top: 10rem;
-  color: white;
-
   h3 {
     font-size:1.8rem;
     font-family: sans-serif;
@@ -52,12 +45,6 @@
   background-color: rgb(243, 242, 242);
   border: 1px solid rgb(194, 194, 194);
 }
-
-.productor_img {
-  max-width: 25rem;
-  
-}
-
 
 .productor_list_right {
   display: flex;
