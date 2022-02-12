@@ -1616,11 +1616,11 @@ a {
 }
 
 #wine2 {
-  background-image: url(assets/clos_Fundo.png);
+  background-image: url(../assets/clos_Fundo.png);
 }
 
 #wine3 {
-  background-image: url(assets/mains_Fundo.png);
+  background-image: url(../assets/mains_Fundo.png);
 }
 
 .show-wines {
