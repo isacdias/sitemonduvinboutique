@@ -1,10 +1,17 @@
-.mv_container {
+.mv_container, .mv_container_fluid {
     width: 100%;
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.mv_container_fluid {
+    height: auto;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .mv_row {
@@ -34,27 +41,27 @@
 
 /* RESPONSIVE */
 @media screen and (min-width: 1200px) {
-    .container {
+    .mv_container {
         max-width: 1140px;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .container {
+    .mv_container {
         max-width: 960px;
     }
 }
 
 @media screen and (min-width: 768px) {
-.container {
-    max-width: 720px;
-  }
+    .mv_container {
+        max-width: 720px;
+    }
 }
 
 @media screen and (min-width: 576px) {
-.container {
-    max-width: 540px;
-  }
+    .mv_container {
+        max-width: 540px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -65,6 +72,4 @@
     }
 }
 
-@media screen and (max-width: 576px) {
-    
-}
+@media screen and (max-width: 576px) {}

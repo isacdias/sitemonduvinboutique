@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-    font-size: 6rem;
+    font-size: 5.8rem;
 }
 
 h2, .h2 {
@@ -40,6 +40,18 @@ h5, .h5 {
 
 a {
     display: inline-flex;
+}
+
+h1.titleh1 {
+    font-size: 4rem;
+}
+
+.aside-menu li a {
+    display: inline;
+}
+
+.container-lens {
+    overflow: hidden;
 }
 
 .mv_header {
