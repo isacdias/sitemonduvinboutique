@@ -51,11 +51,12 @@ p {
     margin: 0;
 }
 
-ul, ol {
-    padding-left: 40px;
+ul,
+ol {
     list-style-position: inside;
     list-style: none;
     margin: 0;
+    padding-left: 0;
 }
 
 ol li,
@@ -67,7 +68,12 @@ label {
     display: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -209,7 +215,9 @@ th {
     padding: 5px 10px;
 }
 
-*, ::after, ::before {
+*,
+ ::after,
+ ::before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;

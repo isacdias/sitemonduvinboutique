@@ -1,4 +1,5 @@
 /* RESPONSIVE */
+
 @media screen and (min-width: 1200px) {
     .mv_container {
         max-width: 1170px
@@ -6,7 +7,6 @@
     .mv_hero {
         min-height: 650px;
     }
-
     .show-wines {
         [class*="content-wine"] {
             .bottle {
@@ -16,7 +16,36 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .container-lens {
+        padding: 6em 3em;
+    }
+    .show-wines [class*=content-wine] {
+        h2 {
+            max-width: none;
+        }
+    }
+}
+
 @media screen and (max-width: 992px) {
+    .home-main {
+        flex-direction: column;
+        justify-content: space-evenly;
+        h1.titleh1 {
+            font-size: 3rem;
+            order: 1;
+            text-align: left;
+        }
+        .social-medias {
+            order: 2;
+        }
+        aside {
+            order: 3;
+            .aside-menu {
+                padding-left: 0;
+            }
+        }
+    }
     .mv_hero {
         h2 {
             font-size: 2.8rem;
@@ -25,9 +54,89 @@
             font-size: 1.8rem;
         }
     }
+    .show-wines [class*=content-wine] {
+        padding-left: 0;
+        .mv_col-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            width: 100%;
+        }
+        img.bottle {
+            max-width: none;
+            width: auto;
+        }
+        .price,
+        .price>.button {
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+        .price {
+            h5 {
+                font-size: 2rem;
+                margin-right: 0;
+            }
+        }
+    }
+}
 
-    .show-wines [class*=content-wine] .price h5 {
-        font-size: 1.4rem;
+@media screen and (max-width: 992px) and (orientation:portrait) {
+    .home-main {
+        aside {
+            width: 100%;
+            .aside-menu ul {
+                order: 2;
+                li {
+                    float: left;
+                    margin-left: 1em;
+                    margin-right: 0;
+                    width: calc(50% - 1em);
+                }
+                li:nth-child(2n+1) {
+                    margin-left: 0;
+                    margin-right: 1em;
+                }
+            }
+        }
+        .social-medias {
+            align-items: start;
+            display: table;
+            order: 3;
+            width: calc(100% - 3em);
+            a>i {
+                font-size: 3.2rem;
+                margin-right: 1em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) and (orientation:landscape) {
+    .container-lens {
+        padding: 2em 3em;
+    }
+    .home-main {
+        h1.titleh1 {
+            font-size: 1.8rem;
+            max-width: 50%;
+        }
+        aside {
+            .aside-menu li {
+                margin: 0;
+                padding: 1em 0;
+                &:last-of-type {
+                    border-bottom: none;
+                }
+            }
+        }
+        .social-medias {
+            align-items: start;
+            display: table;
+            width: 50%;
+            a {
+                margin-right: 1em;
+            }
+        }
     }
 }
 
@@ -36,7 +145,7 @@
         margin-top: 0;
         max-width: 100%;
     }
-    .productor_list_right .productor_list_title{
+    .productor_list_right .productor_list_title {
         font-size: 1.6rem;
         margin-top: 1em;
     }
@@ -49,12 +158,11 @@
     .show-wines {
         [class*="content-wine"] {
             padding-left: 0;
-
             h2 {
                 max-width: 100%;
             }
-
-            .price, .price>* {
+            .price,
+            .price>* {
                 display: block;
                 text-align: center;
                 width: 100%;
@@ -63,6 +171,52 @@
     }
 }
 
-@media screen and (max-width: 576px) {
-    
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    html,
+    body {
+        font-size: .9rem;
+    }
+    .container-lens {
+        padding: 2em;
+    }
+    .mv_hero {
+        height: auto;
+        max-height: none;
+        min-height: 0;
+        padding: 12em 0 5em;
+    }
 }
+
+@media screen and (max-width: 576px) {
+    html,
+    body {
+        font-size: .7rem;
+    }
+    .container-lens {
+        padding: 3em 1.5em;
+    }
+    .home-main {
+        h1.titleh1 {
+            font-size: 2.2rem;
+        }
+        .aside-menu {
+            li {
+                margin-left: 0.5em;
+                width: calc(50% - 0.5em);
+                a {
+                    font-size: .8rem;
+                }
+            }
+            li:nth-child(2n+1) {
+                margin-right: 0.5em;
+            }
+        }
+    }
+    .show-wines [class*=content-wine] img.bottle {
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {}
