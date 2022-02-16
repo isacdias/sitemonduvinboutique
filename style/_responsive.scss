@@ -33,6 +33,28 @@
             max-width: none;
         }
     }
+    #mv_regiao_grapes {
+        .grapes-section {
+            margin-right: 0;
+            .grapes-titles {
+                text-align: center;
+            }
+            .region-content .region-grapes-group {
+                .grape-img {
+                    margin-bottom: 1em;
+                    img {
+                        max-width: 100%;
+                        margin-right: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .patrimonio .st-emilion-desc {
+        padding: 5em;
+        text-align: center;
+    }
 }
 
 

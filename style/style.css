@@ -834,7 +834,6 @@ footer {
   padding: 5rem 18rem;
   margin-top: -15rem;
   z-index: -10;
-  width: 65%;
   display: flex;
   justify-content: center;
   color: white;
@@ -853,10 +852,6 @@ footer {
   .region-content .region-grapes-group h6 {
     font-size: 2rem;
     display: none;
-  }
-
-  .patrimonio .st-emilion-desc {
-    width: 85%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1742,6 +1737,14 @@ h1.titleh1 {
   max-width: none;
 }
 
+#mv_regiao_grapes .container-grapes {
+  padding: 0 15px;
+}
+
+.patrimonio .st-emilion-desc {
+  text-align: center;
+}
+
 /* RESPONSIVE */
 @media screen and (min-width: 1200px) {
   .mv_container {
@@ -1768,6 +1771,26 @@ h1.titleh1 {
 
   .show-wines [class*=content-wine] h2 {
     max-width: none;
+  }
+
+  #mv_regiao_grapes .grapes-section {
+    margin-right: 0;
+  }
+  #mv_regiao_grapes .grapes-section .grapes-titles {
+    text-align: center;
+  }
+  #mv_regiao_grapes .grapes-section .region-content .region-grapes-group .grape-img {
+    margin-bottom: 1em;
+  }
+  #mv_regiao_grapes .grapes-section .region-content .region-grapes-group .grape-img img {
+    max-width: 100%;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .patrimonio .st-emilion-desc {
+    padding: 5em;
+    text-align: center;
   }
 }
 /*@media screen and (max-width: 1200px) and (orientation:portrait) {
