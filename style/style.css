@@ -1630,10 +1630,6 @@ h1.titleh1 {
   overflow: hidden;
 }
 
-.mv_top {
-  background-size: cover;
-}
-
 .mv_header {
   padding: 3em 0;
   position: absolute;
@@ -1674,6 +1670,7 @@ h1.titleh1 {
   font-size: 0.7rem;
 }
 
+.mv_top,
 #wine2,
 #wine3 {
   background-size: cover;
